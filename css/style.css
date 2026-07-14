@@ -163,3 +163,11 @@ section:not(.hero){
 
     padding:120px 10%;
 }
+.hero{
+    width:100%;
+    min-height:100vh;
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+    text-align:center !important;
+}
