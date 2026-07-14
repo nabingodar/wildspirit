@@ -1,1 +1,178 @@
+/* ===========================
+   Wild Spirit Website
+   Author: Nabin Godar
+=========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f8f6f2;
+    color:#222;
+    line-height:1.8;
+}
+
+/* Navigation */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(14px);
+
+    z-index:999;
+
+    transition:.4s;
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-family:'Playfair Display',serif;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:35px;
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#222;
+
+    font-weight:500;
+
+    transition:.3s;
+}
+
+nav a:hover{
+
+    color:#a36a3c;
+}
+
+/* Hero */
+
+.hero{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:0 10%;
+
+    background:
+
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+
+    url("../images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+}
+
+.hero-content{
+
+    max-width:800px;
+
+    color:white;
+}
+
+.subtitle{
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:.9rem;
+
+    margin-bottom:20px;
+}
+
+.hero h1{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:4.5rem;
+
+    line-height:1.1;
+
+    margin-bottom:30px;
+}
+
+.description{
+
+    font-size:1.15rem;
+
+    margin-bottom:40px;
+}
+
+.btn{
+
+    display:inline-block;
+
+    padding:15px 40px;
+
+    background:#a36a3c;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    transition:.3s;
+}
+
+.btn:hover{
+
+    background:#7d4d27;
+
+    transform:translateY(-3px);
+}
+
+/* Placeholder Sections */
+
+section:not(.hero){
+
+    padding:120px 10%;
+}
