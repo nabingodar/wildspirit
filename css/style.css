@@ -623,6 +623,31 @@ grid-template-columns:1fr;
     cursor:pointer;
 
 }
+.gallery-caption{
+
+    background:#ffffff;
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.gallery-caption h4{
+
+    margin-bottom:10px;
+
+    font-family:'Playfair Display',serif;
+
+}
+
+.gallery-caption p{
+
+    font-size:0.95rem;
+
+    margin-bottom:15px;
+
+}
 
 @keyframes zoom{
 
