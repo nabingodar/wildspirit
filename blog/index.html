@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Stories — Wild Spirit</title>
+  <meta name="description" content="A collection of travel stories and experiences from my journey around the world.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .blog-index {
+      max-width: 900px;
+      margin: 100px auto 40px;
+      padding: 0 20px;
+    }
+    .blog-header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .blog-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .blog-header p {
+      color: #666;
+      font-size: 1.1rem;
+    }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    .blog-card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .blog-card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .blog-card-content {
+      padding: 20px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .blog-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin: 0 0 10px 0;
+      color: #222;
+    }
+    .blog-card p {
+      color: #666;
+      font-size: 0.95rem;
+      margin: 0 0 15px 0;
+      flex-grow: 1;
+    }
+    .read-more {
+      color: #a36a3c;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .blog-index {
+        margin-top: 80px;
+      }
+      .blog-header h1 {
+        font-size: 1.8rem;
+      }
+      .blog-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar custom-navbar">
+    <div class="container">
+      <a class="navbar-brand logo" href="/">Wild Spirit</a>
+    </div>
+  </header>
 
+  <main>
+    <div class="blog-index">
+      <div class="blog-header">
+        <h1>Travel Stories</h1>
+        <p>Moments, reflections, and stories from my journeys around the world</p>
+      </div>
+
+      <div class="blog-grid">
+        <a href="nagoya.html" class="blog-card">
+          <img src="../images/japan/nagoya-skyline.jpeg" alt="Nagoya from Above" class="blog-card-image">
+          <div class="blog-card-content">
+            <h3>Nagoya from Above</h3>
+            <p>A short travel story and photo of Nagoya captured from a skyscraper, exploring the city's urban landscape and my reflections on the experience.</p>
+            <span class="read-more">Read Story →</span>
+          </div>
+        </a>
+
+        <!-- Add more blog posts here as you create them -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="container" style="padding: 40px 20px; text-align: center; color: #666;">
+    <p>© Nabin Godar — Wild Spirit</p>
+  </footer>
+
+</body>
+</html>
