@@ -55,6 +55,19 @@ body{
     text-transform:uppercase;
     opacity:.9;
 }
+.hero-subtitle{
+
+    max-width:650px;
+
+    font-size:1.25rem;
+
+    margin-top:15px;
+
+    opacity:.95;
+
+    line-height:1.7;
+
+}
 
 /* ==========================
    Blog Content
