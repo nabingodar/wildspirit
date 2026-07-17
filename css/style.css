@@ -295,7 +295,7 @@ body{
 
     background:#f8f6f2;
 
-    padding:120px 0;
+    padding:140px 0;
 
 }
 
@@ -322,7 +322,9 @@ body{
 
 .about-content{
 
-    padding-left:40px;
+    padding-left:50px;
+
+    max-width:650px;
 
 }
 
@@ -343,7 +345,6 @@ body{
 }
 
 
-
 .about-content h2{
 
     font-family:'Playfair Display',serif;
@@ -352,19 +353,59 @@ body{
 
     line-height:1.2;
 
-    margin-bottom:30px;
+    margin-bottom:25px;
+
+    position:relative;
+
+}
+.about-content h2::after{
+
+    content:"";
+
+    display:block;
+
+    width:70px;
+
+    height:3px;
+
+    background:#A36A3C;
+
+    margin-top:18px;
 
 }
 
 
 
+
 .about-content p{
 
-    font-size:1.1rem;
+    font-size:1.08rem;
+
+    line-height:2;
 
     color:#555;
 
-    margin-bottom:20px;
+    margin-bottom:28px;
+
+}
+
+.story-quote{
+
+    margin:50px 0;
+
+    padding:30px;
+
+    border-left:5px solid #A36A3C;
+
+    background:#faf8f5;
+
+    font-family:"Playfair Display", serif;
+
+    font-size:1.4rem;
+
+    font-style:italic;
+
+    color:#444;
 
 }
 
