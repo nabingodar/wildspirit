@@ -1045,3 +1045,13 @@ grid-template-columns:1fr;
     color:#444;
 
 }
+
+.timeline-image{
+
+    width:100%;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+}
