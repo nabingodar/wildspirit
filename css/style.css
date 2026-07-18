@@ -577,7 +577,18 @@ body{
 
 }
 
-
+.timeline-year{
+    display:inline-block;
+    font-size:0.85rem;
+    font-weight:600;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:#A36A3C;
+    background:rgba(163,106,60,.1);
+    padding:5px 14px;
+    border-radius:20px;
+    margin-top:15px;
+}
 
 .timeline-content h3{
 
