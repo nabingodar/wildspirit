@@ -857,8 +857,11 @@ body{
     font-size:1rem;
     font-weight:400;
     color:#777;
-    margin-top:-8px;
-    margin-bottom:18px;
+    margin-top:-6px;
+    margin-bottom:20px;
+   text-align:front;
+    letter-spacing:1px;
+}
 
 }
 
