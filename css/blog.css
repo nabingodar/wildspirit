@@ -319,23 +319,43 @@ footer{
 
 .story-quote{
 
-    margin:80px 0;
+    margin:80px auto;
 
-    padding:40px;
+    max-width:720px;
 
-    border-left:6px solid #A36A3C;
+    text-align:center;
 
-    background:#faf7f2;
+    border:none;
+
+    background:none;
 
     font-family:"Playfair Display",serif;
 
-    font-size:1.6rem;
+    font-size:2rem;
 
     line-height:1.7;
 
-    color:#444;
+    color:#333;
 
     font-style:italic;
+
+    position:relative;
+
+}
+
+.story-quote::before{
+
+    content:"“";
+
+    font-size:5rem;
+
+    color:#A36A3C;
+
+    display:block;
+
+    line-height:1;
+
+    margin-bottom:10px;
 
 }
 
