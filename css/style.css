@@ -220,13 +220,6 @@ body{
     margin-bottom:20px;
     display:block;
 }
-.timeline-item:nth-child(2) .timeline-image{
-    object-position:left center;
-}
-
-.timeline-item:nth-child(2) .timeline-image{
-    object-position:top center;
-}
 
 @media(max-width:992px){
     .about-content{
