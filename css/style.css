@@ -224,8 +224,9 @@ body{
 
 .about-section .about-content p{
     font-family:'Cormorant Garamond', serif;
-    font-size:1.35rem;
+    font-size:1.45rem;
     line-height:1.85;
+   font-weight:500;
 }
 
 .about-section .story-quote{
