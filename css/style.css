@@ -919,6 +919,5 @@ body{
     width:100%;
     display:block;
     filter:grayscale(35%) contrast(1.05);
-    -webkit-mask-image:radial-gradient(ellipse 65% 65% at center, #000 55%, transparent 100%);
-    mask-image:radial-gradient(ellipse 65% 65% at center, #000 55%, transparent 100%);
+    border-radius:50%;
 }
