@@ -223,10 +223,10 @@ body{
 }
 
 .about-section .about-content p{
-    font-family:'Cormorant Garamond', serif;
-    font-size:1.45rem;
-    line-height:1.85;
-   font-weight:500;
+    font-family:'Fraunces', serif;
+    font-size:1.4rem;
+    line-height:1.8;
+    font-weight:600;
 }
 
 .about-section .story-quote{
