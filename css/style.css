@@ -688,6 +688,10 @@ body{
    Contact Section
 ========================== */
 
+.contact-section{
+    padding:140px 0;
+}
+
 .contact-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
