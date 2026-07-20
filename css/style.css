@@ -909,13 +909,16 @@ body{
         font-size:2.2rem;
     }
 }
-.about-mountain-art{
+
+.about-blend-photo{
     width:100%;
     max-width:420px;
 }
 
-.about-mountain-art svg{
+.about-blend-photo img{
     width:100%;
-    height:auto;
     display:block;
+    filter:grayscale(35%) contrast(1.05);
+    -webkit-mask-image:radial-gradient(ellipse 65% 65% at center, #000 55%, transparent 100%);
+    mask-image:radial-gradient(ellipse 65% 65% at center, #000 55%, transparent 100%);
 }
