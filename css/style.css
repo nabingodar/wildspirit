@@ -516,7 +516,7 @@ body{
 }
 
 .story-card-media img[src*="seven-eleven-hero"]{
-    object-position:center 75%;
+    object-position:center 90%;
 }
 
 .story-card:hover .story-card-media img{
