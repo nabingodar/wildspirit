@@ -51,3 +51,17 @@ document.addEventListener("keydown", (e) => {
     }
 
 });
+
+// Close mobile nav menu after clicking a link
+const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+const navbarCollapse = document.querySelector(".navbar-collapse");
+
+navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        if (navbarCollapse.classList.contains("show")) {
+            const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse) 
+                || new bootstrap.Collapse(navbarCollapse);
+            bsCollapse.hide();
+        }
+    });
+});
