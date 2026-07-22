@@ -311,6 +311,9 @@ footer{
 .story-image img[src*="spring-1"]{
     width:50%;
 }
+.story-image img[src*="spring-2"]{
+    width:50%;
+}
 
 /* ==========================================
    QUOTE
