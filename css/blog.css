@@ -240,7 +240,7 @@ footer{
         width:100%; !important;
         max-height:none; !important;
     }
-story-image img[src*="spring-1"],
+.story-image img[src*="spring-1"],
     .story-image img[src*="spring-2"]{
         width:100% !important;
         max-height:none !important;
