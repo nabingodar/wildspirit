@@ -253,12 +253,15 @@ body{
 
 }
 
-.timeline-item:nth-child(2) .timeline-image{
+.timeline-image{
 
-    max-height:none;
+    width:100%;
+
+    max-height:320px;
 
     object-fit:contain;
 
+}
 }
 
 @media(max-width:992px){
