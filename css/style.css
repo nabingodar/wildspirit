@@ -262,11 +262,11 @@ body{
     object-fit:contain;
 
 }
-}
+
 
 @media(max-width:576px){
     .about-content{
-        padding-left:0;
+        padding-left:0 !important;
        text-align:left;
     }
 
