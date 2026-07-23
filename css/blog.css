@@ -741,3 +741,18 @@ max-width:820px;
     letter-spacing:.5px;
 
 }
+@media(max-width:768px){
+    .blog-content img[src*="pokhara"]{
+        object-fit:contain;
+        max-height:none;
+        height:auto;
+        background:#f8f6f2;
+    }
+
+    .blog-content img[src*="nagoya-skyline"]{
+        object-fit:contain;
+        max-height:none;
+        height:auto;
+        background:#f8f6f2;
+    }
+}
