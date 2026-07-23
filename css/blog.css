@@ -237,8 +237,8 @@ footer{
         max-height:260px;
     }
     .story-image img{
-        width:100%;
-        max-height:none;
+        width:100%; !important;
+        max-height:none; !important;
     }
 }
 
