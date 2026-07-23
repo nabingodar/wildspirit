@@ -236,6 +236,10 @@ footer{
     .blog-content img{
         max-height:260px;
     }
+   .blog-content .portrait-image img,
+.blog-content .story-image img{
+    max-height:none;
+}
     .story-image img{
         width:100%; !important;
         max-height:none; !important;
