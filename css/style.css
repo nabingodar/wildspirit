@@ -983,3 +983,10 @@ body{
     object-fit:cover;
     display:block;
 }
+/* ===================================
+   Seven Eleven Story Thumbnail
+=================================== */
+
+.seven-thumb{
+    object-position: center bottom;
+}
