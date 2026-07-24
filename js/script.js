@@ -2,51 +2,53 @@
    Wild Spirit JavaScript
 ========================== */
 
-// Select all gallery images
-const galleryImages = document.querySelectorAll(".gallery-item img");
+/* ==========================
+   Gallery Lightbox
+========================== */
 
-// Lightbox elements
+const galleryLinks = document.querySelectorAll(".gallery-lightbox");
+
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.querySelector(".close-lightbox");
 
-// Open lightbox
-galleryImages.forEach((image) => {
+galleryLinks.forEach((link)=>{
 
-    image.addEventListener("click", () => {
+    link.addEventListener("click",(e)=>{
 
-        lightbox.style.display = "flex";
-        lightboxImg.src = image.src;
-        lightboxImg.alt = image.alt;
+        e.preventDefault();
+
+        lightbox.style.display="flex";
+
+        lightboxImg.src = link.href;
+
+        lightboxImg.alt = link.querySelector("img").alt;
 
     });
 
 });
 
-// Close button
-closeBtn.addEventListener("click", () => {
+closeBtn.addEventListener("click",()=>{
 
-    lightbox.style.display = "none";
+    lightbox.style.display="none";
 
 });
 
-// Close when clicking outside image
-lightbox.addEventListener("click", (e) => {
+lightbox.addEventListener("click",(e)=>{
 
-    if (e.target === lightbox) {
+    if(e.target===lightbox){
 
-        lightbox.style.display = "none";
+        lightbox.style.display="none";
 
     }
 
 });
 
-// Close with Escape key
-document.addEventListener("keydown", (e) => {
+document.addEventListener("keydown",(e)=>{
 
-    if (e.key === "Escape") {
+    if(e.key==="Escape"){
 
-        lightbox.style.display = "none";
+        lightbox.style.display="none";
 
     }
 
