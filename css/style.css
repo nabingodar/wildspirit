@@ -427,36 +427,6 @@ body{
     box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
-.gallery-item img{
-    width:100%;
-    height:320px;
-    object-fit:cover;
-    display:block;
-    transition:transform .45s ease;
-    cursor:pointer;
-}
-
-.gallery-item:hover img{
-    transform:scale(1.06);
-}
-
-.gallery-lightbox{
-    display:block;
-}
-
-.story-card img{
-    height:420px;
-}
-
-.gallery-caption{
-    position:absolute;
-    left:0;
-    right:0;
-    bottom:0;
-    padding:24px;
-    background:linear-gradient(transparent,rgba(0,0,0,.88));
-    color:#fff;
-}
 
 .gallery-caption h4{
     margin-bottom:10px;
