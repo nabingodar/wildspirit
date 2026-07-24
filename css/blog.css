@@ -767,3 +767,7 @@ max-width:820px;
         background:#f8f6f2;
     }
 }
+.blog-content img[src*="hotel-room"]{
+    object-fit:contain;
+    background:#f8f6f2;
+}
