@@ -980,18 +980,6 @@ body{
 .seven-thumb{
     object-position: center 70%;
 }
-/* ==========================
-   Gallery
-========================== */
 
-.gallery-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-gap:22px;
-
-}
 
 
