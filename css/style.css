@@ -1072,3 +1072,19 @@ img{
 img{
     -webkit-touch-callout:none;
 }
+.gallery-item .photo-caption{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:18px 20px;
+    background:linear-gradient(transparent,rgba(0,0,0,.75));
+    color:#fff;
+    opacity:0;
+    transition:opacity .35s ease;
+    pointer-events:none;
+}
+
+.gallery-item:hover .photo-caption{
+    opacity:1;
+}
