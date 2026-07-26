@@ -1088,3 +1088,79 @@ img{
 .gallery-item:hover .photo-caption{
     opacity:1;
 }
+.city-spotlights{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    gap:70px;
+}
+
+.city-band{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.city-band.reverse .city-photo{
+    order:2;
+}
+
+.city-band.reverse .city-text{
+    order:1;
+    text-align:right;
+}
+
+.city-photo{
+    border-radius:16px;
+    overflow:hidden;
+    height:340px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.city-photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    cursor:pointer;
+    transition:transform .45s ease;
+}
+
+.city-photo:hover img{
+    transform:scale(1.06);
+}
+
+.city-kanji{
+    font-size:.85rem;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:#A36A3C;
+    margin-bottom:10px;
+}
+
+.city-text h3{
+    font-family:"Playfair Display",serif;
+    font-size:2rem;
+    margin-bottom:16px;
+    color:#1d1d1d;
+}
+
+.city-text p{
+    font-size:1rem;
+    line-height:1.8;
+    color:#666;
+}
+
+@media(max-width:768px){
+    .city-band,
+    .city-band.reverse .city-photo,
+    .city-band.reverse .city-text{
+        grid-template-columns:1fr;
+        order:initial;
+        text-align:left;
+    }
+    .city-photo{
+        height:260px;
+    }
+}
